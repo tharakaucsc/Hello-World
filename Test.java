@@ -7,7 +7,7 @@ public class Test{
 		System.out.print("Enter a number : ");
 		int number = scan.nextInt();
         int fact = factorial(number);
-        System.out.println(number + "! = "+fact);
+        System.out.println("Answer "+number + "! = "+fact);
     }
 /***************
 * iterative method **
