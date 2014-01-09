@@ -1,0 +1,3 @@
+*.c
+#do track test.c
+#!test.c
