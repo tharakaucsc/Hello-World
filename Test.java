@@ -5,9 +5,14 @@ public class Test{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("---- Factorial Calculator ----");
 		System.out.print("Enter a number : ");
-		int number = scan.nextInt();
-        int fact = factorial(number);
-        System.out.println("Answer "+number + "! = "+fact);
+		try{
+			int number = scan.nextInt();
+			int fact = factorial(number);
+			System.out.println("Answer "+number + "! = "+fact);
+		}catch(Exception e){
+			System.out.println("Error : "+e);
+		}
+			
     }
 /***************
 * iterative method **
