@@ -4,7 +4,7 @@ public class Test{
     public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		System.out.println("---- Factorial Calculator ----");
-		System.out.print("Enter a number : ");
+		System.out.print("Enter a number to calculate the factorial: ");
 		try{
 			int number = scan.nextInt();
 			int fact = factorial(number);
