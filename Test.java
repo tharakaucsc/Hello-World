@@ -11,6 +11,7 @@ public class Test{
 			System.out.println("Answer "+number + "! = "+fact);
 		}catch(Exception e){
 			System.out.println("Error : "+e);
+			System.out.println("Exit from the program");
 		}
 			
     }
